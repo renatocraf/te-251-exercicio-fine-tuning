@@ -8,6 +8,38 @@ Este projeto implementa um sistema de classificação automática de requirement
 - **Comparar** o desempenho entre modelo base e modelo fine-tuned
 - **Avaliar** a eficácia do fine-tuning para tarefas específicas de engenharia de software
 
+## Informações do Modelo Fine-tuned
+
+### Detalhes Técnicos
+
+| Propriedade | Valor |
+|-------------|-------|
+| **Model ID** | `ft:gpt-4.1-nano-2025-04-14:personal:te-251-carlos-figueiredo:CAUgUYUQ` |
+| **Status** | ✅ Succeeded |
+| **Job ID** | `ftjob-3DgNdEuDHqJQu9ao9GLlmVvY` |
+| **Training Method** | Supervised |
+| **Suffix** | `te-251-carlos-figueiredo` |
+| **Base Model** | `gpt-4.1-nano-2025-04-14` |
+| **Created At** | Aug 31, 2025, 12:52 AM |
+| **Data Sharing** | Private |
+| **Trained Tokens** | 30,060 |
+
+### Configuração de Treinamento
+
+- **Método**: Aprendizado supervisionado
+- **Dataset**: Requirements de software categorizados
+- **Tokens processados**: 30,060
+- **Objetivo**: Classificação binária (functional/non-functional)
+
+### Hyperparâmetros
+
+| Parâmetro | Valor |
+|-----------|-------|
+| **Epochs** | 5 |
+| **Batch Size** | 1 |
+| **LR Multiplier** | 0.1 |
+| **Seed** | 42 |
+
 ## Pré-requisitos
 
 - Python 3.11 ou superior instalado no sistema
