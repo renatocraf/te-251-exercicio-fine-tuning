@@ -1,0 +1,113 @@
+# Nome do Projeto
+
+Descrição breve do seu projeto aqui.
+
+## Pré-requisitos
+
+- Python 3.11 ou superior instalado no sistema
+- pip (geralmente vem incluído com Python)
+
+Para verificar se o Python está instalado:
+```bash
+python --version
+```
+ou
+```bash
+python3 --version
+```
+
+## Configuração do Ambiente
+
+### 1. Criando o Ambiente Virtual (venv)
+
+No diretório raiz do projeto, execute:
+
+```bash
+python -m venv venv
+```
+
+ou se você usa `python3`:
+
+```bash
+python3 -m venv venv
+```
+
+Isso criará uma pasta chamada `venv` contendo o ambiente virtual isolado.
+
+### 2. Ativando o Ambiente Virtual
+
+#### No Windows:
+
+**Command Prompt (cmd):**
+```cmd
+venv\Scripts\activate
+```
+
+**PowerShell:**
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+**Git Bash:**
+```bash
+source venv/Scripts/activate
+```
+
+#### No Linux/macOS:
+
+```bash
+source venv/bin/activate
+```
+
+Quando o ambiente estiver ativo, você verá `(venv)` no início da linha de comando.
+
+### 3. Instalando as Dependências
+
+Com o ambiente virtual ativado, instale as dependências do projeto:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Desativando o Ambiente Virtual
+
+Quando terminar de trabalhar no projeto, desative o ambiente virtual:
+
+```bash
+deactivate
+```
+
+## Estrutura do Projeto
+
+```
+seu-projeto/
+├── venv/                 # Ambiente virtual (não versionar)
+├── requirements.txt      # Lista de dependências
+├── README.md            # Este arquivo
+└── ...                  # Seus arquivos do projeto
+```
+
+## Configuração das Variáveis de Ambiente
+
+### Criando o arquivo .env
+
+Após instalar as dependências, você precisa criar um arquivo `.env` na raiz do projeto para configurar as variáveis de ambiente necessárias.
+
+1. Crie um arquivo chamado `.env` na raiz do projeto:
+```bash
+touch .env  # Linux/macOS
+# ou crie manualmente no Windows
+```
+
+2. Adicione a(s) seguinte(s) variável(is) ao arquivo `.env`:
+```env
+OPENAI_API_KEY=sua_chave_api_aqui
+```
+
+**OPENAI_API_KEY:**
+- Esta é sua chave de API pessoal da OpenAI
+- Necessária para autenticar e fazer requisições para os modelos da OpenAI (GPT-3.5, GPT-4, etc.)
+- Você pode obter sua chave em: https://platform.openai.com/api-keys
+- **Importante:** Mantenha esta chave em segredo e nunca a compartilhe publicamente
+
+
