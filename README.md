@@ -5,7 +5,9 @@ Este projeto implementa um sistema de classificação automática de requirement
 ## Informações da Disciplina
 
 Universidade: Instituto Tecnológico de Aeronáutica 
+
 Disciplina: TE-251 - Fundamentos de IA para Desenvolvimento de Sistemas Aeroespaciais
+
 Professor: Guilherme Moreira
 
 ## Objetivos
