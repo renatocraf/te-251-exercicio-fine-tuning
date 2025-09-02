@@ -2,6 +2,12 @@
 
 Este projeto implementa um sistema de classificação automática de requirements de software em duas categorias: **funcionais** e **não-funcionais**, utilizando modelos de linguagem da OpenAI com técnicas de fine-tuning.
 
+## Informações da Disciplina
+
+Universidade: Instituto Tecnológico de Aeronáutica 
+Disciplina: TE-251 - Fundamentos de IA para Desenvolvimento de Sistemas Aeroespaciais
+Professor: Guilherme Moreira
+
 ## Objetivos
 
 - **Automatizar** a classificação de requirements de software
